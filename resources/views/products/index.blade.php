@@ -23,7 +23,6 @@
                 <th>Sell Price (TK)</th>
                 <th>Stock</th>
                 <th>Created At</th>
-                <th>Actions</th>
             </tr>
         </thead>
         <tbody>
@@ -35,20 +34,6 @@
                 <td>{{ number_format($product->sell_price, 2) }}</td>
                 <td>{{ $product->stock }}</td>
                 <td>{{ $product->created_at->format('d M Y') }}</td>
-                <td>
-                    <a href="{{ route('products.edit', $product->id) }}" class="btn btn-sm btn-warning" title="Edit">
-                        <i class="fa fa-edit"></i>
-                    </a>
-
-                    <form action="{{ route('products.destroy', $product->id) }}" method="POST" class="d-inline-block" 
-                        onsubmit="return confirm('Are you sure want to delete this product?');">
-                        @csrf
-                        @method('DELETE')
-                        <button class="btn btn-sm btn-danger" title="Delete">
-                            <i class="fa fa-trash"></i>
-                        </button>
-                    </form>
-                </td>
             </tr>
             @endforeach
         </tbody>

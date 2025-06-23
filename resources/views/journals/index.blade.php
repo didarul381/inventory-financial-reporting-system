@@ -2,7 +2,7 @@
 
 @section('content')
 <div class="container">
-    <h2 class="mb-4">📒 Accounting Journals</h2>
+    <h2 class="mb-4"><i class="fas fa-book mr-2"></i> Accounting Journals</h2>
 
     <table class="table table-bordered table-striped shadow-sm bg-white">
         <thead class="thead-dark">
