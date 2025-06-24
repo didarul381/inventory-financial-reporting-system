@@ -88,7 +88,7 @@ A simple inventory and accounting system built with Laravel. This application al
     jQuery (for validation)
 
 
-
+![Screenshot](Screenshot_9.jpg)
 ![Screenshot](Screenshot_1.jpg)
 ![Screenshot](Screenshot_2.jpg)
 ![Screenshot](Screenshot_3.jpg)
@@ -97,3 +97,5 @@ A simple inventory and accounting system built with Laravel. This application al
 ![Screenshot](Screenshot_6.jpg)
 ![Screenshot](Screenshot_7.jpg)
 ![Screenshot](Screenshot_8.jpg)
+![Screenshot](Screenshot_10.jpg)
+![Screenshot](Screenshot_11.jpg)
